@@ -1,6 +1,6 @@
 
-The Common Connect-Four Interface (CCFI)
-========================================
+The Common Connect-Four Interface
+=================================
 
 This is the specification for The Common Connect-Four Interface (CCFI),
 a communication protocol to connect a Connect-Four engine and an application.
