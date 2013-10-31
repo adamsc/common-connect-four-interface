@@ -18,8 +18,6 @@ General Requirements
   system. Neither the engine nor the calling program will use '\n' during communication
   for any purpose other than to indicate the end of a command.
 
-* Arbitrary amounts of whitespace are permitted between tokens.
-
 * Engines may not carry out any computation until commanded, and must cease
   promptly after being commanded.
 
@@ -62,6 +60,7 @@ Application to Engine
 
 * `position ...`
   The command position will be followed by a position format string as described above.
+  The command `position` will be separated from the string by exactly 1 space character.
   The engine should prepare to calculate on the given position.
 
 * `go`
