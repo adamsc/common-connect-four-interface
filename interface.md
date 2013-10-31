@@ -50,7 +50,7 @@ The player with the token 'x' moves first.
 
 As an example, the following would be the position if the first player had played
 in column 1:
-`1x5/7/7/7/7/7 o`
+`1x4/6/6/6/6/6 o`
 
 Application to Engine
 ---------------------
