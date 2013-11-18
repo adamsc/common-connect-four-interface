@@ -74,10 +74,3 @@ Engine to Application
 
 * `bestmove <col#>`
   Sent by the engine when it has completed searching.
-
-* `info ...`
-  The engine can use the `info` command to send useful information to the application
-  while searching. The command should be followed by arbitrary information the engine
-  thinks would be of interest. The `info` command may only be sent while a search is underway,
-  and the last `info` must be sent before the engine sends `bestmove`. An example of useful
-  information would be the engine evaluation of the current score.
