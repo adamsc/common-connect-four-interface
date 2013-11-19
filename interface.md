@@ -78,14 +78,14 @@ Engine to Application
   
 Example Run
 -----------
->> denotes input to the engine
-<< denotes output from the engine
+`>>` denotes input to the engine
+`<<` denotes output from the engine
 
->> newgame
->> position 7/7/7/7/7/7 x
->> go
-<< bestmove 6
->> position 1o4x/7/7/7/7/7 x
->> go
-<< bestmove 5
->> quit
+`>> newgame`
+`>> position 7/7/7/7/7/7 x`
+`>> go`
+`<< bestmove 6`
+`>> position 1o4x/7/7/7/7/7 x`
+`>> go`
+`<< bestmove 5`
+`>> quit`
