@@ -96,4 +96,12 @@ Example Run
 
 `<< bestmove 5`
 
+`>> newgame`
+
+`>> position 7/7/7/7/7/7 x`
+
+`>> go`
+
+`<< bestmove 6`
+
 `>> quit`
